@@ -1,0 +1,16 @@
+
+A JAVA program to analyze previous stock market data to help predict market reversals based on the Harami Pattern
+
+This program contains five classes:
+Main.java contains the main method that runs the program.
+Stock.java class stores the stock's daily data and the associated methods to access it.
+StockData.java class containts the specific day data (open, close, high, low) for the stock.
+StockWeekData.java class contains the specific week data (open, close, high, low) for the stock.
+StockPattern.java class utilizes the least squares linear regression and Harami algorithm to determine a reversal.
+
+The input required is the name of the stock and the CSV file. The CSV file for the stock can be downloaded from the stock history tab on Yahoo Finance.
+
+Usage:
+java Main <Stock Symbol> <Stock Historical Data CSV file> 
+
+In the future I plan to expand my program to utilize other candlestick patterns in conjuction with the Harami pattern.
